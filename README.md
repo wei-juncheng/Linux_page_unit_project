@@ -22,3 +22,8 @@
     - reference
         - https://wwssllabcd.github.io/blog/2012/11/13/how-to-make-linux-module/
 - Compile `hello.c` and using `dmesg` to watch the output of kernel module.
+
+## Result
+- We can use `dmesg` to watch the output of this kernel module.
+- We can see the virtual address translating procedure with PGD->PUD->PMD->PT, and then we can get physical address in out physical memory.
+- ![](https://i.imgur.com/vP6IN9v.png)
